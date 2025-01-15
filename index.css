@@ -1,0 +1,226 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image:url("images/pixelart.jpg");
+    background-size: cover;
+    overflow-x: hidden;
+    text-decoration: none;
+
+}
+
+/* Header Section */
+
+header {
+    background-color: #39277ab2;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    padding-top: 20px;    
+}
+header a{
+    color: white;
+    text-decoration: none;
+}
+header h1 {
+    font-size: 36px;
+    margin-left: 100px;
+    text-align: left;
+}
+header a:hover{
+    background: radial-gradient(circle, #e6b9f1, #8524bd);
+      background-clip: text;
+      color: transparent;
+    }
+
+
+/* Navigation Bar - Right Aligned */
+nav {
+    overflow: hidden;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    margin-left: 100px;
+    margin-right: 100px; 
+    font-weight: bold;
+    backdrop-filter: blur(14px);
+
+}
+
+nav a {
+    color: white;
+    padding: 10px 20px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 16px;
+    
+}
+
+
+.button{ 
+    padding: 10px 24px;
+    border-radius: 30px;
+    color: white;
+    background-image: linear-gradient(to right, rgb(107, 24, 107) , rgb(46, 20, 88));
+    border: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+}
+
+nav a button:hover {
+    background-image: linear-gradient(to right, rgb(107, 24, 107) , rgb(46, 20, 88));
+    transform: scale(1.1);
+}
+
+
+/* Main Content Section */
+.container {
+    padding: 40px 20px;
+    margin-top: 100px;
+}
+main {
+    color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 200px;
+
+}
+.main h3{
+    font-size: 50px;
+    margin-bottom: 30px;
+    color: radial-gradient(circle, #d6bfdb, #b262e0);
+
+}
+
+/* Main Content Section */
+.container {
+    padding: 40px 20px;
+    margin-top: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 20px;
+    background-repeat: no-repeat;
+   
+}
+
+.card {
+    width: 300px;
+    background: linear-gradient(90deg, rgba(10,7,46,1) 0%, rgb(51, 8, 88) 35%, rgba(44,25,96,1) 100%);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 20px;
+    background: linear-gradient(90deg, rgba(10,7,46,1) 0%, rgb(51, 8, 88) 35%, rgba(44,25,96,1) 100%);
+    
+}
+
+.card-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.card-description {
+    font-size: 1em;
+    color: white;
+}
+
+
+.services {
+    padding: 50px 0;
+    text-align: center;
+    color: white;
+}
+
+.services h2 {
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+}
+
+.service-card {
+    display: inline-block;
+    width: 30%;
+    margin: 15px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color:#291450c7;
+    background: linear-gradient(90deg, rgba(10,7,46,1) 0%, rgb(51, 8, 88) 35%, rgba(44,25,96,1) 100%);
+    position: relative;
+
+}
+
+.service-card h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.social-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    text-align: right;
+}   
+  
+h2 button {
+    background-color: whitesmoke;
+    color: black;
+    align-items: center;
+    font-size: medium;
+    padding: 10px 24px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 16px;
+}
+.btn-talk :hover{
+    background-color: #ffffff;
+    color: black;
+    transform: scale(1.1);
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 16px;
+}
+.box-btm{
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 24px;
+
+}
+
+
+/* Footer Section */
+footer {
+    color: white;
+    text-align: left;
+    padding: 10px 0;
+    width: 100%;
+    bottom: 0;
+    margin-left: 100px;
+    margin-right: 100px; 
+}
