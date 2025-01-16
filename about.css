@@ -101,8 +101,7 @@ nav a button:hover {
 }
 
 .span{
-    background: linear-gradient(90deg, rgba(207,208,221,1) 7%, rgba(203,200,223,1) 24%, rgba(231,217,226,1) 40%, rgba(207,134,210,1) 68%, rgba(101,142,205,1) 82%);    
-    background-clip: text;
+    background: linear-gradient(84deg, rgba(159,151,219,1) 0%, rgba(184,200,233,1) 28%, rgba(193,108,228,1) 47%, rgba(210,134,217,1) 69%, rgba(195,64,174,1) 100%);    background-clip: text;
     color: transparent;
     font-weight: bold;
 
