@@ -21,11 +21,11 @@ header {
     left: 0;
     width: 100%;
     z-index: 1000;
-    padding-top: 20px;    
+    padding-top: 20px;  
 }
 header a{
     color: white;
-    text-decoration: none;
+    text-decoration: none;  
 }
 header h1 {
     font-size: 36px;
@@ -97,23 +97,22 @@ main {
 }
 .main h3{
     font-size: 50px;
-    margin-bottom: 30px;
+    padding: 200px 100px;
     color: radial-gradient(circle, #d6bfdb, #b262e0);
 
 }
 
 /* Main Content Section */
 .container {
-    padding: 40px 20px;
-    margin-top: 200px;
+    padding: 100px 200px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     gap: 20px;
-    padding: 20px;
     background-repeat: no-repeat;
    
 }
+
 
 .card {
     width: 300px;
@@ -185,35 +184,9 @@ main {
     color: white;
     text-decoration: none;
     margin: 0 10px;
-    text-align: right;
+    align-items: right;
 }   
   
-h2 button {
-    background-color: whitesmoke;
-    color: black;
-    align-items: center;
-    font-size: medium;
-    padding: 10px 24px;
-    border-radius: 30px;
-    text-decoration: none;
-    font-size: 16px;
-}
-.btn-talk :hover{
-    background-color: #ffffff;
-    color: black;
-    transform: scale(1.1);
-    cursor: pointer;
-    text-decoration: none;
-    font-size: 16px;
-}
-.box-btm{
-    color: #ffffff;
-    text-align: center;
-    padding: 10px 24px;
-
-}
-
-
 /* Footer Section */
 footer {
     color: white;

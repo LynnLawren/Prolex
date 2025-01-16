@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image:url("images/about.jpg");
+    background-size:contain;
+    overflow-x: hidden;
+    text-decoration: none;
+
+}
+
+/* Header Section */
+
+header {
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    padding-top: 20px;  
+}
+header a{
+    color: white;
+    text-decoration: none;  
+}
+header h1 {
+    font-size: 36px;
+    margin-left: 100px;
+    text-align: left;
+}
+header a:hover{
+    background: radial-gradient(circle, #e6b9f1, #8524bd);
+      background-clip: text;
+      color: transparent;
+    }
+
+/* Navigation Bar - Right Aligned */
+nav {
+    overflow: hidden;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    margin-left: 100px;
+    margin-right: 100px; 
+    font-weight: bold;
+    backdrop-filter: blur(14px);
+    background-color: transparent;
+
+}
+
+nav a {
+    color: white;
+    padding: 10px 20px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 16px;
+    
+}
+
+
+.button{ 
+    padding: 10px 24px;
+    border-radius: 30px;
+    color: white;
+    background-image: linear-gradient(to right, rgb(107, 24, 107) , rgb(46, 20, 88));
+    border: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+}
+
+nav a button:hover {
+    background-image: linear-gradient(to right, rgb(107, 24, 107) , rgb(46, 20, 88));
+    transform: scale(1.1);
+}
+
+
+/* Main Content Section */
+
+.hero h2{
+    font-size: 100px;
+    text-align: center;
+    font-weight: lighter;
+    color: white;
+    padding: 300px 100px;
+}
+
+
+.hero p{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    line-height: 0.3;
+}
+
+.span{
+    background: linear-gradient(90deg, rgba(207,208,221,1) 7%, rgba(203,200,223,1) 24%, rgba(231,217,226,1) 40%, rgba(207,134,210,1) 68%, rgba(101,142,205,1) 82%);    
+    background-clip: text;
+    color: transparent;
+    font-weight: bold;
+
+}
+
+.box h1{
+    color: white;
+    background-color: #b10e9e;
+    background-image: linear-gradient(43deg, #b10e9e 0%, #352352 59%, #2d14aa 87%);
+    text-align: center;
+    padding: 100px 50px;
+    font-size: 30px;
+    font-weight: lighter;
+
+}
