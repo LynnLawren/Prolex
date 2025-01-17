@@ -33,9 +33,9 @@ header h1 {
     text-align: left;
 }
 header a:hover{
-    background: radial-gradient(circle, #e6b9f1, #8524bd);
-      background-clip: text;
-      color: transparent;
+    background: linear-gradient(to right top, #d16ba5, #d267b0, #d164bd, #cc62cb, #c562da, #b26be6, #9c74f0, #817cf8, #5a88f6, #3290ee, #0b95e2, #1499d3);;
+    background-clip: text;
+    color: transparent;
     }
 
 /* Navigation Bar - Right Aligned */
@@ -117,3 +117,24 @@ nav a button:hover {
     font-weight: lighter;
 
 }
+
+  
+/* Footer Section */
+footer {
+    color: white;
+    text-align: left;
+    padding: 10px 0;
+    width: 100%;
+    bottom: 0;
+    margin-left: 100px;
+    margin-right: 100px; 
+}
+
+
+
+.social-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    align-items: right;
+}   
