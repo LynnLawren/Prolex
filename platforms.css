@@ -2,8 +2,8 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image:url("images/about.jpg");
-    background-size:contain;
+    background-image:url("images/pixelart.jpg");
+    background-size: cover;
     overflow-x: hidden;
     text-decoration: none;
 
@@ -12,7 +12,7 @@ body {
 /* Header Section */
 
 header {
-    background-color: transparent;
+    background-color: #39277ab2;
     color: white;
     text-align: center;
     padding: 30px 20px;
@@ -35,8 +35,9 @@ header h1 {
 header a:hover{
     background: linear-gradient(to right top, #d16ba5, #d267b0, #d164bd, #cc62cb, #c562da, #b26be6, #9c74f0, #817cf8, #5a88f6, #3290ee, #0b95e2, #1499d3);;
     background-clip: text;
-    color: transparent;
+      color: transparent;
     }
+
 
 /* Navigation Bar - Right Aligned */
 nav {
@@ -49,7 +50,6 @@ nav {
     margin-right: 100px; 
     font-weight: bold;
     backdrop-filter: blur(14px);
-    background-color: transparent;
 
 }
 
@@ -83,39 +83,107 @@ nav a button:hover {
 
 
 /* Main Content Section */
-
-.hero h2{
-    font-size: 100px;
-    text-align: center;
-    font-weight: lighter;
+.container {
+    padding: 40px 20px;
+    margin-top: 100px;
+}
+main {
     color: white;
-    padding: 300px 100px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 200px;
+
+}
+.main h3{
+    font-size: 50px;
+    padding: 200px 100px;
+    color: radial-gradient(circle, #d6bfdb, #b262e0);
+
+}
+
+/* Main Content Section */
+.container {
+    padding: 100px 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    background-repeat: no-repeat;
+   
 }
 
 
-.hero p{
-    font-size: 30px;
+.card {
+    width: 300px;
+    background: linear-gradient(90deg, rgba(10,7,46,1) 0%, rgb(51, 8, 88) 35%, rgba(44,25,96,1) 100%);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 20px;
+    background: linear-gradient(90deg, rgba(10,7,46,1) 0%, rgb(51, 8, 88) 35%, rgba(44,25,96,1) 100%);
+    
+}
+
+.card-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.card-description {
+    font-size: 1em;
+    color: white;
+}
+
+
+.services {
+    padding:200px 0;
     text-align: center;
     color: white;
-    line-height: 0.3;
 }
 
-.span{
-    background: linear-gradient(84deg, rgba(159,151,219,1) 0%, rgba(184,200,233,1) 28%, rgba(193,108,228,1) 47%, rgba(210,134,217,1) 69%, rgba(195,64,174,1) 100%);    background-clip: text;
-    color: transparent;
-    font-weight: bold;
+.services h2 {
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+}
+
+.service-card {
+    display: inline-block;
+    width: 30%;
+    margin: 15px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color:#291450c7;
+    background: linear-gradient(90deg, rgba(10,7,46,1) 0%, rgb(51, 8, 88) 35%, rgba(44,25,96,1) 100%);
+    position: relative;
 
 }
 
-.box h1{
-    color: white;
-    background-image: linear-gradient(43deg, #b10e6d 0%, #4b3a66 59%, #3018a8 87%);
-    text-align: center;
-    padding: 100px 50px;
-    font-size: 30px;
-    font-weight: lighter;
-
+.service-card h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
 }
+
+
+/*Pricing*/
+
+
 
   
 /* Footer Section */

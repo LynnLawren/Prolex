@@ -1,4 +1,33 @@
-/* Body Styling */
+* Header Section */
+
+header {
+    background-color: #39277ab2;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    padding-top: 20px;  
+}
+header a{
+    color: white;
+    text-decoration: none;  
+}
+header h1 {
+    font-size: 36px;
+    margin-left: 100px;
+    text-align: left;
+}
+header a:hover{
+    background: linear-gradient(to right top, #d16ba5, #d267b0, #d164bd, #cc62cb, #c562da, #b26be6, #9c74f0, #817cf8, #5a88f6, #3290ee, #0b95e2, #1499d3);;
+    background-clip: text;
+      color: transparent;
+    }
+    
+    /* Body Styling */
 body {
     background-color: #5e105e;
     font-family: Arial, sans-serif;
