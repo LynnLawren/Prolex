@@ -160,16 +160,15 @@ main {
 
 .services h2 {
     margin-bottom: 40px;
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 
 .service-card {
     display: inline-block;
     width: 30%;
-    margin: 15px;
     padding: 20px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    background-color:#291450c7;
+    background-color:#aba2bdc7;
     background: linear-gradient(90deg, rgba(10,7,46,1) 0%, rgb(51, 8, 88) 35%, rgba(44,25,96,1) 100%);
     position: relative;
 
