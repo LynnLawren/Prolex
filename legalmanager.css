@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image:url("images/pixelart.jpg");
+    background-image:url("images/legal.jpeg");
     background-size: cover;
     overflow-x: hidden;
     text-decoration: none;
@@ -12,7 +12,6 @@ body {
 /* Header Section */
 
 header {
-    background-color: #39277ab2;
     color: white;
     text-align: center;
     padding: 30px 20px;

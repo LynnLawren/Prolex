@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image:url("images/pixelart.jpg");
+    background-image:url("images/pixel.jpeg");
     background-size: cover;
     overflow-x: hidden;
     text-decoration: none;
@@ -12,16 +12,18 @@ body {
 /* Header Section */
 
 header {
-    background-color: #39277ab2;
+    background-color: transparent;
     color: white;
     text-align: center;
     padding: 30px 20px;
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
     z-index: 1000;
-    padding-top: 20px;  
+    width: 100%;
+    padding-top: 20px; 
+    backdrop-filter: blur(14px);
+ 
 }
 header a{
     color: white;
@@ -38,18 +40,23 @@ header a:hover{
       color: transparent;
     }
 
+    
 
 /* Navigation Bar - Right Aligned */
+
+
+
+
 nav {
     overflow: hidden;
     position: absolute;
     top: 20px;
     right: 20px;
-    padding: 10px 20px;
+    padding: 20px 20px;
     margin-left: 100px;
     margin-right: 100px; 
     font-weight: bold;
-    backdrop-filter: blur(14px);
+    z-index: 1001;
 
 }
 
@@ -58,7 +65,6 @@ nav a {
     padding: 10px 20px;
     display: inline-block;
     text-decoration: none;
-    font-size: 16px;
     
 }
 
@@ -66,9 +72,9 @@ nav a {
 .button{ 
     padding: 10px 24px;
     border-radius: 30px;
+    border: none;
     color: white;
     background-image: linear-gradient(to right, rgb(107, 24, 107) , rgb(46, 20, 88));
-    border: none;
     font-weight: bold;
     text-transform: uppercase;
     cursor: pointer;
@@ -80,6 +86,52 @@ nav a button:hover {
     background-image: linear-gradient(to right, rgb(107, 24, 107) , rgb(46, 20, 88));
     transform: scale(1.1);
 }
+
+
+/* Style for the dropdown container */
+.dropdown {
+    position:relative;
+    display: inline-block;
+    
+}
+
+/* Style for the dropdown link (AI Platforms) */
+.dropdown-toggle {
+    text-decoration: none;
+    padding: 2px 4px;
+    color: white;
+    font-size: 15px;
+}
+
+/* Style for the dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 180px;
+    top: 80%; /* Align the dropdown below the AI Platforms link */
+    left: 0;   /* Ensure the dropdown aligns with the left side of the AI Platforms link */
+    z-index: 1;
+    padding: 0; /* Remove extra padding around the dropdown */
+    margin: 0;  /* No margin, so dropdown content aligns perfectly */
+}
+
+/* Style for each dropdown item */
+.dropdown-content a {
+    color: white;
+    padding: 12px 6px;
+    text-decoration: none;
+    display: block;
+    box-sizing: border-box;
+}
+
+
+/* Show the dro pdown content when hovering over the dropdown container */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
 
 
 /* Main Content Section */
@@ -165,7 +217,7 @@ main {
 
 .service-card {
     display: inline-block;
-    width: 30%;
+    width: 20%;
     margin: 15px;
     padding: 20px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);

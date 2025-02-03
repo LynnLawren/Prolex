@@ -107,7 +107,7 @@ main {
 sub {
     color: white;   
     text-align: center;
-    font-size: 20px;
+    font-size: 40px;
     font-weight: 0;
 }
 
@@ -138,7 +138,7 @@ sub {
 }
 
 .contact-form h1 {
-    font-size: 30px;
+    font-size: 60px;
     font-weight: lighter;
     margin-bottom: 20px;
 }
@@ -146,11 +146,12 @@ sub {
 ::placeholder {
     color: white;
     opacity: 1;
+    font-size: 40px;
 }
 .contact-form input,
 .contact-form textarea {
     width: 100%;
-    padding: 10px;
+    padding: 20px;
     margin-bottom: 20px;
     border: 1px solid #ddd;
     border-radius: 4px;
