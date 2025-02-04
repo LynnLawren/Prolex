@@ -2,12 +2,11 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image:url("images/grad.jpeg");
-    background-size: cover;
     overflow-x: hidden;
     text-decoration: none;
     object-fit:scale-down;
-
+    background-color:#0a101c;
+   
 }
 
 /* Header Section */
@@ -88,9 +87,10 @@ nav a button:hover {
 main {
     color: white;
     text-align: center;
-    margin-top: 400px;
+    margin-top: 350px;
     line-height: 0%;
     transition: all 0.3s ease;
+    
 
 }
 .ai{
@@ -113,22 +113,23 @@ sub {
 
 
 
-
 /*Box area*/
 
 .container {
-    width: 80%;
-    margin: 0 auto;
-}
+    width: 100%;
 
+}
 /* Contact Form Styles */
 
 .contact-form {
     color: white;
-    padding: 400px 500px 500px 800px;
+    padding: 400px 400px 100px 900px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-size: cover;
+    background-image:url(/images/flow.jpg);
 
+   
 }
 
 .contact-form label {
@@ -138,7 +139,7 @@ sub {
 }
 
 .contact-form h1 {
-    font-size: 60px;
+    font-size: 30px;
     font-weight: lighter;
     margin-bottom: 20px;
 }
@@ -146,7 +147,7 @@ sub {
 ::placeholder {
     color: white;
     opacity: 1;
-    font-size: 40px;
+    font-size: 20px;
 }
 .contact-form input,
 .contact-form textarea {
@@ -155,23 +156,24 @@ sub {
     margin-bottom: 20px;
     border: 1px solid #ddd;
     border-radius: 4px;
-    background: #070707;
+    background: #111113;
+    color: white;
+    font-size: 20px;
 }
 
 .contact-form button {
-    padding: 10px 20px;
+    padding: 10px 30px;
     border: 1px solid #ddd;
     color: white;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    width: 100%;
     border-radius: 30px;
     background-image: linear-gradient(to right, rgb(107, 24, 107) , rgb(46, 20, 88));
     border: none;
     font-weight: bold;
+    font-size: 20px;
     cursor: pointer;
-    transition: all 0.3s ease;
 }
 
 .contact-form button:hover {
@@ -190,12 +192,3 @@ footer {
     margin-left: 100px;
     margin-right: 100px; 
 }
-
-
-
-.social-links a {
-    color: white;
-    text-decoration: none;
-    margin: 0 10px;
-    align-items: right;
-}   

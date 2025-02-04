@@ -14,7 +14,6 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url('/images/galaxy.jpeg') no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -163,7 +162,7 @@ font-weight: 600;
 
 /*Galaxy Background*/
 .bg {
-    background: url("/images/backgnd.jpg") no-repeat;
+    background: url("/images/login.jpg") no-repeat;
     background-size: cover;
     height: 100%;
     width: 100%;
